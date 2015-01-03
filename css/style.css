@@ -52,13 +52,16 @@ ol, ul {
 
 .content {
 	padding: 0 15px;
-	width: 60%;
+	width: 970px;
     margin: 0 auto; 
 }
 
 .top-navigation {
 	background-color: #fff;
-	border-bottom: 1px solid #ddd;	
+	border-bottom: 1px solid #ddd;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;	
 }
 
 .top-navigation > .content {
@@ -115,20 +118,20 @@ ol, ul {
 
 .introduction h1 {
 	margin-top: 13rem;
-	font-size: 3rem;
+	font-size: 3.25rem;
 }
 
 .introduction h3 {
 	margin-top: 1.25rem;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
+	letter-spacing: .03em;
 }
 
 .buttons {
 	text-align: center;
 	margin: 0 auto;
-	
-}
 
+}
 
 .big-button {
 	color: white;
@@ -140,7 +143,7 @@ ol, ul {
 	border-radius: 4px;
 	text-shadow: none;
 	border-style: none;
-	margin-top: 1.5rem;
+	margin-top: 2rem;
 }
 
 .big-button: hover {
@@ -148,6 +151,38 @@ ol, ul {
 	border-color: #cf3d0e;
 	cursor: pointer;
 }
+
+/*Cases*/
+
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+
+.cases .content {
+	margin-top: 7rem;
+	padding: none;
+	color: #1d1e21;
+	text-align: center;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+}
+
+.cases .devices > li {
+	width: 33.3333333%;
+	float: left;
+}
+
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 2rem 0 1.875rem;
+}
+
 
 
 
